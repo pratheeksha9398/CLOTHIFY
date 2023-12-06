@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CONTACT CLOTHIFY</title>
+    <link href="/CSS/index.css" rel="stylesheet" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="/script/contact.js"></script>
+    <!--styling the form-->
+    <style>
+      .form-control {
+        background-color: rgb(234, 231, 231);
+      }
+
+      .form-control > input {
+        padding: 10px;
+        margin: 2px;
+        border: 2px solid black;
+      }
+      .form-control > textarea {
+        padding: 10px;
+        margin: 2px;
+        border: 2px solid black;
+      }
+      .myForm .btn {
+        border-color: black;
+        color: black;
+      }
+      .myForm .btn:hover {
+        background-color: rgb(240, 213, 213);
+        color: black;
+        border-color: black;
+        text-transform: uppercase;
+      }
+    </style>
+  </head>
+  <body style="background-color: rgb(240, 213, 213)">
+    <!--loading header-->
+    <div id="header"></div>
+
+    <br />
+
+    <div class="container">
+      <h1
+        class="text-center"
+        style="
+          text-align: center;
+          font-style: italic;
+          margin-top: 10px;
+          text-shadow: 1px 1px 1px gray;
+          color: rgba(1, 33, 84, 0.943);
+        "
+      >
+        Contact Us
+      </h1>
+      <br />
+      <div class="row">
+        <div class="col-lg-6 col-sm-12 col-md-6 text-center">
+          <img
+            class="text-center"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxILWHCqIPsjJLDcCYyk6qkr8OMjx-xFZ7Hw&usqp=CAU"
+          />
+        </div>
+        <br />
+
+        <div class="col-lg-6 col-sm-12 col-md-5">
+          <form class="myForm form-control justify-content-center">
+            <label for="name" id="name">Name:</label><br />
+            <input
+              type="text"
+              id="name"
+              name="name"
+              class="w-75"
+              placeholder="Name"
+            />
+            <br />
+            <br />
+            <label for="email" id="email">E-mail:</label><br />
+            <input
+              type="email"
+              id="email"
+              name="email"
+              class="w-75"
+              placeholder="E-mail id"
+            />
+            <br />
+            <br />
+            <label for="message" id="message">Message:</label><br />
+            <textarea type="text" class="w-75"></textarea>
+            <br />
+            <br />
+            <button class="btn btn-outline-primary w-75">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <br />
+
+    <!--loading footer-->
+    <div id="footer"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!--script function for header and footer-->
+    <script>
+      $(function () {
+        $("#header").load("/common/header.html");
+        $("#footer").load("/common/footer.html");
+      });
+    </script>
+  </body>
+</html>

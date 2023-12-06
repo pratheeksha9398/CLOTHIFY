@@ -1,0 +1,44 @@
+/*adding style to the form*/
+.myForm{
+    background-color: hwb(0 91% 7% / 0.541);
+    border:5px solid rgb(209, 139, 139);
+    border-radius: 20px;
+    border-style:double;
+    box-shadow: 2px 2px 10px rgb(194, 117, 117);
+    
+}
+
+.input-field{
+    text-align: center;
+    margin:10px;
+    
+ }
+.input-field label{
+    font-size:18px;
+    margin-bottom: 5px;
+    color:rgb(42, 42, 44);
+    font-weight: bold;
+    font-style: oblique;
+}
+.input-field input{
+    font-size: 15px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    border-color:  rgb(209, 139, 139);
+    border-style:solid;
+}
+.input-field .btn{
+    border-radius: 20px;
+    border: 2px solid   rgb(209, 139, 139);
+    color: rgb(28, 22, 22);
+    font-size:20px;
+    background-color: rgb(254, 252, 252) ;
+}
+.input-field > .btn:hover{
+    border: 2px solid rgb(209, 139, 139);
+    background-color: rgb(214, 144, 121);
+    font-variant: small-caps;  
+}
+
+
+

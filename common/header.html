@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CLOTHIFY</title>
+    <!--including style sheet OF HEADER-->
+    <link src="/CSS/header.css" rel="stylesheet" />
+    <!--including font-awesome-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <!--Header first section-->
+    <nav
+      class="navbar navbar-expand-lg bg-body-secondary"
+      role="navigation"
+      id="header"
+    >
+      <div class="container-fluid row">
+        <div class="col-lg-3 col-xs-12">
+          <img src="../images/logo.svg" />
+          <button
+            class="navbar-toggler float-end"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarScroll"
+            aria-controls="navbarScroll"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+
+        <div
+          class="col-lg-9 col-xs-6 collapse navbar-collapse justify-content-center"
+          id="navbarScroll"
+        >
+          <div class="col-lg-7 col-md-12">
+            <form class="d-flex" role="search">
+              <input
+                class="form-control border-black"
+                type="search"
+                placeholder="Products..."
+                aria-label="Search"
+              />
+              <button
+                class="btn btn-outline-secondary border-opacity-25"
+                type="submit"
+              >
+                Search
+              </button>
+            </form>
+          </div>
+
+          <div class="col-lg-5">
+            <ul class="navbar-nav float-lg-end float-sm-start">
+              <li class="nav-item">
+                <a href="../pages/login.html"
+                  ><button class="btn btn-outline-secondary">
+                    <i class="fa-solid fa-user m-2"></i>Login
+                  </button></a
+                >
+              </li>
+
+              <li class="nav-item">
+                <a href="../pages/cart.html">
+                  <button class="btn">
+                    <i
+                      class="fa-solid fa-cart-shopping fa-xl m-3"
+                      style="color: #276e91"
+                    ></i>
+                  </button>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!--header second section-->
+    <nav
+      class="navbar navbar-expand-lg bg-body-tertiary"
+      role="navigation"
+      id="header"
+    >
+      <div class="row container-fluid d-flex">
+        <ul class="nav justify-content-center">
+          <li class="nav-item">
+            <a
+              class="nav-link active"
+              aria-current="page"
+              href="../pages/index.html"
+              >Home</a
+            >
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/products.html">Products</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="../pages/men.html"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Men
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="/men/all.html"> All</a></li>
+              <li>
+                <a class="dropdown-item" href="/men/shirts.html">Shirts</a>
+              </li>
+              <li><a class="dropdown-item" href="/men/pants.html">Pants</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="../pages/women.html"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Women
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="/women/all.html">All</a></li>
+              <li>
+                <a class="dropdown-item" href="/women/dress.html">Dresses</a>
+              </li>
+              <li><a class="dropdown-item" href="/women/tops.html">Tops</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/kids.html">Kids</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/contact.html">Contact-Us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </body>
+</html>

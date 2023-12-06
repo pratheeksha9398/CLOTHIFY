@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    background-color:rgb(228, 226, 226);
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+   
+}
+
+.column {
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.column h3 {
+    color: #000000 !important;
+}
+
+p{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    justify-content:center;
+}
+.last{
+    background-color:rgb(228, 226, 226);
+}
+
+@media (max-width: 768px) {
+    footer {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

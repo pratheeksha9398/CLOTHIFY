@@ -1,0 +1,59 @@
+This is my Front-end Project named CLOTHIFY, an E-commerce website using HTML,CSS,BOOTSTRAP and JAVASCRIPT.
+
+The pages includes- 
+1. Home page
+	Includes Header-> Used bootstrap navbar for the responsiveness.
+			  The logo has been generated using logo generator.
+			  Also the login button is created using button generator, also has the hovering effect on the login button.
+			  The bootstrap nav-links have been used.
+	
+	Banner Image-> The message of the website is been included. I have done this using the marquee tag to scroll through.
+		       There is an mouse on and mouse out events added to the marquee tag.
+		       On hovering the passage stops scrolling and on mouse out it resumes.
+	
+	Featured Products-> Using the Carousel slider which has the responsiveness.
+			    used media query to display the two cards in the carousel in the medium and small screens.
+                            the background color, border shadow is been applied to the cards.
+			    there is also an hovering effect on cards as we move on them.
+	
+	Footer-> The footer is designed using the grid property, with all the links provided which takes to the respective pages.
+	
+	* The header and footer has been added to all the pages dynamically using javascript.
+
+2. Products page
+	It includes all the products of men, women and kids as shown.
+	Using the Grid property and cards for displaying the products.
+	Media query used for cards to display, for the responsivenss.
+	Add to cart button with the cart image has the hovering effect and on click redirects to the cart page.
+
+3. Men Category- All products
+	     	 Shirts
+	    	 Pants
+	The Men Category has three different pages- All products, shirts and pants page.
+	I have used the cards and displayed them using the grid property.
+
+4. Women Category- All products
+	   	   Dresses
+	    	   Tops
+	The Women Category has three different pages- All products, Dresses and Tops page.
+	I have used the cards and displayed them using the grid property.
+
+5. Kids page->
+        The kids clothing page has been designed using the cards as well.
+ 
+6. Contact page->
+	The contact page is designed using the card and having images on one side and the form on other side.
+	The submit button has the hovering effect and font-transform on hovering as capitalize.
+
+7. Cart page->
+	I have again used cards for the two sections in the cart page, items and summary.
+	The borders, hover effect, background colors, transition properties have been used for the styling. 
+	
+8. Login Page-->
+	The login page is done to get the user's details and connect with them and to keep them updating.
+	Designed using the form-contorl bootstrap property.
+	There is change in the border color on focusing the input fields.
+	Login button has the font-transform property as capitalize on hovering that.
+	For validation part, used the javascript.
+	It shows an alert message upon entering the required e-mail and password.
+	Shows invalid message on entering the wrong email and password.
